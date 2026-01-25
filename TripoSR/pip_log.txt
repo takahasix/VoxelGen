@@ -1,0 +1,197 @@
+Using pip 23.0.1 from /Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/lib/python3.10/site-packages/pip (python 3.10)
+Collecting xatlas==0.0.9
+  Using cached xatlas-0.0.9.tar.gz (290 kB)
+  Installing build dependencies: started
+  Running command pip subprocess to install build dependencies
+  Looking in indexes: https://pypi.org/simple, https://e30137%40jp.ibm.com:****@na.artifactory.swg-devops.com/artifactory/api/pypi/res-srom-pypi-local/simple, https://e30137%40jp.ibm.com:****@na.artifactory.swg-devops.com/artifactory/api/pypi/wcp-ai-foundation-team-pypi-virtual/simple
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/res-srom-pypi-local/simple/setuptools/
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/wcp-ai-foundation-team-pypi-virtual/simple/setuptools/
+  Collecting setuptools>=42
+    Using cached setuptools-80.10.1-py3-none-any.whl (1.1 MB)
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/res-srom-pypi-local/simple/wheel/
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/wcp-ai-foundation-team-pypi-virtual/simple/wheel/
+  Collecting wheel
+    Using cached wheel-0.46.3-py3-none-any.whl (30 kB)
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/res-srom-pypi-local/simple/ninja/
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/wcp-ai-foundation-team-pypi-virtual/simple/ninja/
+  Collecting ninja
+    Using cached ninja-1.13.0-py3-none-macosx_10_9_universal2.whl (310 kB)
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/res-srom-pypi-local/simple/cmake/
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/wcp-ai-foundation-team-pypi-virtual/simple/cmake/
+  Collecting cmake>=3.12
+    Using cached cmake-4.2.1-py3-none-macosx_10_10_universal2.whl (51.6 MB)
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/res-srom-pypi-local/simple/packaging/
+  WARNING: 401 Error, Credentials not correct for https://na.artifactory.swg-devops.com/artifactory/api/pypi/wcp-ai-foundation-team-pypi-virtual/simple/packaging/
+  Collecting packaging>=24.0
+    Using cached packaging-26.0-py3-none-any.whl (74 kB)
+  Installing collected packages: setuptools, packaging, ninja, cmake, wheel
+  Successfully installed cmake-4.2.1 ninja-1.13.0 packaging-26.0 setuptools-80.10.1 wheel-0.46.3
+
+  [notice] A new release of pip is available: 23.0.1 -> 25.3
+  [notice] To update, run: python3 -m pip install --upgrade pip
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+  !!
+
+          ********************************************************************************
+          Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+          By 2026-Feb-18, you need to update your project and remove deprecated calls
+          or your builds will no longer be supported.
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    corresp(dist, value, root_dir)
+  running egg_info
+  writing src/xatlas.egg-info/PKG-INFO
+  writing dependency_links to src/xatlas.egg-info/dependency_links.txt
+  writing requirements to src/xatlas.egg-info/requires.txt
+  writing top-level names to src/xatlas.egg-info/top_level.txt
+  reading manifest file 'src/xatlas.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'src/xatlas.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+  !!
+
+          ********************************************************************************
+          Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+          By 2026-Feb-18, you need to update your project and remove deprecated calls
+          or your builds will no longer be supported.
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    corresp(dist, value, root_dir)
+  running dist_info
+  creating /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info
+  writing /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/PKG-INFO
+  writing dependency_links to /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/dependency_links.txt
+  writing requirements to /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/requires.txt
+  writing top-level names to /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/top_level.txt
+  writing manifest file '/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/SOURCES.txt'
+  reading manifest file '/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas.egg-info/SOURCES.txt'
+  creating '/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-modern-metadata-otbfpct8/xatlas-0.0.9.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy in ./.venv/lib/python3.10/site-packages (from xatlas==0.0.9) (2.2.6)
+Building wheels for collected packages: xatlas
+  Building wheel for xatlas (pyproject.toml): started
+  Running command Building wheel for xatlas (pyproject.toml)
+  /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+  !!
+
+          ********************************************************************************
+          Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+          By 2026-Feb-18, you need to update your project and remove deprecated calls
+          or your builds will no longer be supported.
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    corresp(dist, value, root_dir)
+  running bdist_wheel
+  running build
+  running build_ext
+  -- The CXX compiler identification is AppleClang 15.0.0.15000309
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /usr/bin/c++ - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  CMake Error at extern/pybind11/CMakeLists.txt:8 (cmake_minimum_required):
+    Compatibility with CMake < 3.5 has been removed from CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+
+    Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+  -- Configuring incomplete, errors occurred!
+  Traceback (most recent call last):
+    File "/Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+      main()
+    File "/Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "/Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 251, in build_wheel
+      return _build_backend().build_wheel(wheel_directory, config_settings,
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 439, in build_wheel
+      return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 427, in _build
+      return self._build_with_temp_dir(
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 408, in _build_with_temp_dir
+      self.run_setup()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup
+      exec(code, locals())
+    File "<string>", line 105, in <module>
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+      return distutils.core.setup(**attrs)  # type: ignore[return-value]
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+      return run_commands(dist)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+      dist.run_commands()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+      self.run_command(cmd)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/dist.py", line 1107, in run_command
+      super().run_command(command)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+      cmd_obj.run()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/command/bdist_wheel.py", line 370, in run
+      self.run_command("build")
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+      self.distribution.run_command(command)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/dist.py", line 1107, in run_command
+      super().run_command(command)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+      cmd_obj.run()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+      self.distribution.run_command(command)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/dist.py", line 1107, in run_command
+      super().run_command(command)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+      cmd_obj.run()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/command/build_ext.py", line 97, in run
+      _build_ext.run(self)
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 368, in run
+      self.build_extensions()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 484, in build_extensions
+      self._build_extensions_serial()
+    File "/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-build-env-691jrdey/overlay/lib/python3.10/site-packages/setuptools/_distutils/command/build_ext.py", line 510, in _build_extensions_serial
+      self.build_extension(ext)
+    File "<string>", line 95, in build_extension
+    File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 369, in check_call
+      raise CalledProcessError(retcode, cmd)
+  subprocess.CalledProcessError: Command '['cmake', '/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-install-0l08ryqq/xatlas_a1e93848d3214d4b83d547f6b7abc88b', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-install-0l08ryqq/xatlas_a1e93848d3214d4b83d547f6b7abc88b/build/lib.macosx-10.9-universal2-cpython-310/', '-DPYTHON_EXECUTABLE=/Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/bin/python3', '-DVERSION_INFO=0.0.9', '-DCMAKE_BUILD_TYPE=Release', '-GNinja']' returned non-zero exit status 1.
+  error: subprocess-exited-with-error
+  
+  × Building wheel for xatlas (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> See above for output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  full command: /Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/bin/python3 /Users/takahasix/Documents/workspace/VoxelGen/TripoSR/.venv/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py build_wheel /var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/tmpy_lt43ur
+  cwd: /private/var/folders/8r/063wjhqn3cv3yt5ryf_47fpw0000gn/T/pip-install-0l08ryqq/xatlas_a1e93848d3214d4b83d547f6b7abc88b
+  Building wheel for xatlas (pyproject.toml): finished with status 'error'
+  ERROR: Failed building wheel for xatlas
+Failed to build xatlas
+ERROR: Could not build wheels for xatlas, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 23.0.1 -> 25.3
+[notice] To update, run: python3 -m pip install --upgrade pip
